@@ -1,0 +1,47 @@
+.map {
+  padding-bottom: 100px;
+}
+.map-title {
+  margin-top: 100px;
+  margin-bottom: 46px;
+}
+
+.about-safari {
+  margin-top: 80px;
+  text-align: left;
+}
+
+.contentbox-title {
+  font-size: 36px;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+
+.contentbox-text {
+  font-size: 18px;
+  line-height: 130%;
+  max-width: 448px;
+  margin-bottom: 34px;
+}
+
+.about-link {
+  color: #c4c4c4;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.about-safari {
+  display: grid;
+  grid-template-columns: 448px 640px;
+  grid-gap: 32px;
+}
+
+.about__video {
+  background-image: url(../images/about_bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

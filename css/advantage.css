@@ -1,0 +1,31 @@
+.advantage {
+  background-image: url(../images/advantage_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 582px;
+}
+
+.advantage__inner {
+  padding: 60px 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 80px;
+}
+
+.advantage__img {
+  border: 1px solid white;
+  width: 120px;
+  height: 120px;
+  padding: 0px 30px;
+  border-radius: 50%;
+  display: block;
+}
+
+.advantage__text {
+  margin-top: 15px;
+  font-size: 16px;
+  line-height: 20px;
+  color: white;
+  max-width: 232px;
+  text-align: left;
+}

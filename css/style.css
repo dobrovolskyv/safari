@@ -1,0 +1,27 @@
+@import "./header.css";
+@import "./country.css";
+@import "./advantage.css";
+@import "./offer.css";
+@import "./map.css";
+@import "./gallery.css";
+@import "./tour.css";
+@import "./reserve.css";
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul,
+li {
+  list-style: none;
+}
+
+.container {
+  max-width: 1200px;
+  text-align: center;
+  margin: 0 auto;
+}

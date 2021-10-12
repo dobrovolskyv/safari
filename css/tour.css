@@ -1,0 +1,50 @@
+.tour {
+  padding: 100px 0;
+}
+
+.tour__top-inner {
+  font-size: 18px;
+  line-height: 130%;
+  display: grid;
+  grid-template-columns: 541px 541px;
+  grid-gap: 70px;
+  text-align: left;
+  border-bottom: 1px solid #d9d9de;
+  padding-bottom: 65px;
+}
+
+.inner__left-text {
+  margin-bottom: 20px;
+}
+
+.inner__left-text span {
+  font-weight: 700;
+}
+
+.inner__right-text {
+  line-height: 144%;
+}
+.table {
+  margin-top: 44px;
+}
+.table-td {
+  max-width: 277px;
+  padding-right: 70px;
+}
+.table-td:last-child {
+  max-width: 277px;
+  padding-right: 0px;
+}
+
+.table-tr-span {
+  font-size: 51px;
+  font-weight: 700;
+  line-height: 130%;
+  color: #886239;
+}
+
+.table-tr {
+  font-size: 20px;
+  line-height: 130%;
+  font-weight: 500;
+}

@@ -1,0 +1,23 @@
+.reserve {
+  background-color: #eaeaea;
+}
+.input {
+  max-width: 832px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 30px;
+  margin-bottom: 50px;
+}
+
+.input--span {
+  grid-column: span 3;
+  grid-row: span 3;
+}
+.input-mail {
+  padding: 10px;
+}
+
+.input--span[type] {
+  margin-top: -10px;
+}

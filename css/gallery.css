@@ -1,0 +1,39 @@
+.gallery {
+  background-color: #886239;
+  padding: 50px 0 100px;
+  color: white;
+}
+.gallery__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.gallery-title {
+  font-size: 36px;
+  line-height: 130%;
+}
+.gallery-link {
+  font-size: 16px;
+  text-decoration: underline;
+  margin-right: 150px;
+  color: inherit;
+}
+
+.slider__inner {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 32px;
+}
+
+.slide-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: -95px;
+  right: 22px;
+}
+.slick-prev {
+  right: 76px;
+}
