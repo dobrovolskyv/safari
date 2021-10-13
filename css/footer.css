@@ -1,0 +1,36 @@
+.footer {
+  background: #1f1e1e;
+  padding: 78px 0;
+  color: white;
+}
+.footer_info {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 69px;
+  align-items: center;
+}
+
+.info-text {
+  max-width: 266px;
+}
+
+.info-list {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-right: 40px;
+}
+.info-item,
+.info-item a {
+  font-size: 14px;
+  color: white;
+}
+
+.info-item-border {
+  text-decoration: underline;
+  font-size: 14px;
+}
+
+.info-item a:hover {
+  color: rgb(192, 180, 180);
+}

@@ -5,25 +5,22 @@
 .tour__top-inner {
   font-size: 18px;
   line-height: 130%;
-  display: grid;
-  grid-template-columns: 541px 541px;
-  grid-gap: 70px;
   text-align: left;
   border-bottom: 1px solid #d9d9de;
   padding-bottom: 65px;
+  margin-bottom: 50px;
+  column-count: 2;
+  column-gap: 46px;
 }
 
-.inner__left-text {
-  margin-bottom: 20px;
+.top-inner__text {
+  margin-bottom: 10px;
 }
 
-.inner__left-text span {
+.top-inner__textspan {
   font-weight: 700;
 }
 
-.inner__right-text {
-  line-height: 144%;
-}
 .table {
   margin-top: 44px;
 }
